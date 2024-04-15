@@ -9,9 +9,6 @@
 - [Glossary](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#glossary)
 - [Instructions for Manual Testing](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#instructions-for-manual-testing)
 
-## Acknowledgements
-
-{list here sources of all reused/adapted ideas, code, documentation, and third-party libraries -- include links to the original source as well}
 
 ## Design & Implementation
 
@@ -43,14 +40,22 @@ The (partial) class diagram is illustrated below:
 The `UI` component,
 
 * reads user commands using `Parser` component.
-* displays various ASCII art and messages through `Render`.
+* displays various ASCII art, messages and tutorial frames through `Render`.
 * creates a `tutorial` to assist user in `TimerTutorial`.
-  * Executes tutorial frames using the TimerTask mechanism.
-  * Provides interactive learning experience for users.
-  * Depends on the Ui component for displaying tutorial frames and managing user interaction.
+  * Executes scheduling using `java.util.Timer` and `java.util.TimerTask`.
+  * `scheduleTutorialFrames(frames, interval)` method automatically schedules and displays tutorial frames at fixed 
+  intervals, in this case would be 4 seconds
+  * Retrieves tutorial frames from `Render` in `getHangmanFrames()` and `getTTTFrames()`
+  * Ignores every user input (except `quit`) during the tutorial, `quit` will exit the tutorial state.
+  * `handleTutorial(displayMethod, tutorial name)`method in `Ui` flags the boolean `stopTutorial` as true if `quit` is 
+  typed. This cancels the timer in `TimerTutorial` ensuring the exit of tutorial mode.
 
-A log file will also be made at `FILE_PATH "./text-ui-test/UiLog.log"` at start of program, that records all Ui-related 
-information and can be used for troubleshooting.
+_A log file will also be made at `FILE_PATH "./text-ui-test/UiLog.log"` at start of program via `setupLogging()` in `Ui`,
+that records all Ui-related information and can be used for troubleshooting. The log file will refresh at every start._
+
+_JUnit testing for functionality testing can be found at `UiTest.java` in `./src/main/test/java/seedu.duke`_
+
+
 
 ### <span style="color:grey;">Game Implementation:</span>
 The `Game` class, is the parent class for our games, `TicTacToe` and `Hangman`.

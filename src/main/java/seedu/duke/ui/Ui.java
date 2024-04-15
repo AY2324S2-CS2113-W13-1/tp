@@ -22,38 +22,7 @@ public class Ui {
     private final Render render;
     private final TimerTutorial tutorial;
 
-
-    static {
-        try {
-            // Ensure directory exists
-            File logFile = new File(FILE_PATH);
-            if (!logFile.getParentFile().exists()) {
-                logFile.getParentFile().mkdirs();  // Create the directory structure needed
-            }
-
-            // Configure the logger with handler and formatter
-            FileHandler fileHandler = new FileHandler(FILE_PATH, false); // Overwrite the existing file
-            fileHandler.setFormatter(new SimpleFormatter());
-            logger.addHandler(fileHandler);
-            logger.setLevel(Level.ALL); // Log all level
-
-            // Remove default console handler and set up custom console handler
-            Logger rootLogger = Logger.getLogger("");
-            ConsoleHandler consoleHandler = null;
-            for (java.util.logging.Handler handler : rootLogger.getHandlers()) {
-                if (handler instanceof ConsoleHandler) {
-                    consoleHandler = (ConsoleHandler) handler;
-                    break;
-                }
-            }
-
-            if (consoleHandler != null) {
-                consoleHandler.setLevel(Level.WARNING); // Only log WARNING and above to the console
-            }
-        } catch (IOException e) {
-            logger.log(Level.SEVERE, "Error occur in FileHandler.", e);
-        }
-    }
+    static { setupLogging(); }
 
 
     /**
@@ -64,6 +33,48 @@ public class Ui {
     public Ui(Render render, TimerTutorial tutorial) {
         this.render = render;
         this.tutorial = tutorial;
+    }
+
+    /**
+     * Sets up logging to file and console. Configures levels and formats for logging output.
+     */
+    private static void setupLogging() {
+        try {
+            File logFile = new File(FILE_PATH);
+            if (!logFile.getParentFile().exists()) {
+                logFile.getParentFile().mkdirs();
+            }
+
+            // Configure the logger to write to a file, overwriting the existing file
+            FileHandler fileHandler = new FileHandler(FILE_PATH, false);
+            fileHandler.setFormatter(new SimpleFormatter());
+            logger.addHandler(fileHandler);
+            logger.setLevel(Level.ALL); // Log all levels of messages
+
+            // Adjust console logging levels
+            Logger rootLogger = Logger.getLogger("");
+            ConsoleHandler consoleHandler = findConsoleHandler(rootLogger);
+            if (consoleHandler != null) {
+                consoleHandler.setLevel(Level.WARNING); // Only log WARNING and above to console
+            }
+        } catch (IOException e) {
+            logger.log(Level.SEVERE, "Error occurred during logging setup.", e);
+        }
+    }
+
+    /**
+     * Finds and returns the ConsoleHandler from the root logger.
+     *
+     * @param rootLogger The root logger from which to find the ConsoleHandler.
+     * @return the ConsoleHandler if found, otherwise null.
+     */
+    private static ConsoleHandler findConsoleHandler(Logger rootLogger) {
+        for (java.util.logging.Handler handler : rootLogger.getHandlers()) {
+            if (handler instanceof ConsoleHandler) {
+                return (ConsoleHandler) handler;
+            }
+        }
+        return null;
     }
 
     /**
@@ -96,19 +107,27 @@ public class Ui {
 
     }
 
+    /**
+     * Initiates and displays the TTT tutorial.
+     * Delegates the tutorial display to a specific tutorial handler.
+     */
     public void printTTTTutorial() {
         handleTutorial(tutorial::displayTTTTutorial, "TTT Tutorial");
     }
 
+    /**
+     * Initiates and displays the Hangman tutorial.
+     * Delegates the tutorial display to a specific tutorial handler.
+     */
     public void printHangmanTutorial() {
         handleTutorial(tutorial::displayHangmanTutorial, "Hangman Tutorial");
     }
 
     /**
-     * Handles the common logic for displaying tutorials.
+     * Handles the common logic for displaying tutorials. Every User Input other than quit is ignored.
      *
      * @param displayMethod The method reference to display the specific tutorial.
-     * @param tutorialName The name of the tutorial for logging purposes.
+     * @param tutorialName The name of the tutorial to be displayed, either TTT or Hangman
      */
     private void handleTutorial(Runnable displayMethod, String tutorialName) {
         Scanner in = new Scanner(System.in);
@@ -132,6 +151,7 @@ public class Ui {
         }
         logger.info("Ended " + tutorialName + ".");
     }
+
     /**
      * Prints the specified string to the console, followed by a newline.
      *

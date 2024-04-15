@@ -40,9 +40,12 @@ displays every frame of the tutorial, and a schedule method `scheduleTutorialFra
 **Contributions to Developer Guide and User Guide:**
 * Added the Ui implementation section to both Developer Guide and User Guide
 
-**Review/mentoring contributions:**
-* Links to PRs reviewed, instances of helping team members in other ways.
+**Debugging contributions:**
+* Ensured all checks by gradle and IO redirection tests pass, made several [Pull Requests](https://github.com/nus-cs2113-AY2324S2/tp/pull/14)
+related to this.
 
 **Contributions beyond the project team:**
-* Evidence of helping others e.g. responses you posted in our forum, bugs you reported in other team's products,
-* Evidence of technical leadership e.g. sharing useful information in the forum
+* [Reported](https://github.com/JackieNeoCEG/ped/issues) an above-average number of bugs during the PE-dry run, 
+11 bugs to be exact.
+* [Reviewed](https://github.com/nus-cs2113-AY2324S2/tp/pull/14/files/d1e6b3511ee5ca0c49db8c26978c35051fb7ae85#r1548934733)
+a pull request by [W14-4](https://github.com/nus-cs2113-AY2324S2/tp/pull/14), giving 4 useful comments.

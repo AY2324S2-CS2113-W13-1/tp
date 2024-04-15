@@ -330,8 +330,9 @@ public class TicTacToe extends Game {
 
     //@@author nicknamenic
     /**
-     * Runs the TTT game and outputs the winner.
+     * Runs the TTT game and outputs the winner. 0 for lost, 1 for win, 2 for draw and 3 for quit.
      *
+     * @return an integer returned by 'checkWinner' method that denotes the game outcome.
      */
     @Override
     public int runGame() {
@@ -403,9 +404,11 @@ public class TicTacToe extends Game {
 
     //@@author nicknamenic
     /**
-     * Prints the winner of the game.
+     * Prints the winner of the game. 0 for lost, 1 for win, 2 for draw and 3 for quit.
      *
      * @param whoWon The string of who won the game.
+     *
+     * @return an integer that denotes the game outcome.
      */
     private static int printWinner(String whoWon) {
         switch (whoWon) {

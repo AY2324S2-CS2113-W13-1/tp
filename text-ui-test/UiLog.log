@@ -1,4 +1,35 @@
+<<<<<<< HEAD
 Apr 15, 2024 4:08:58 AM seedu.duke.ui.Ui greetUser
 INFO: Displayed game menu to user.
 Apr 15, 2024 4:09:02 AM seedu.duke.ui.Ui printHelp
 INFO: Displayed help message.
+=======
+Apr 15, 2024 7:28:41 PM seedu.duke.ui.Ui greetUser
+INFO: Displayed game menu to user.
+Apr 15, 2024 7:28:51 PM seedu.duke.ui.Ui println
+FINE: Printed to console: That's not a category :O.
+Apr 15, 2024 7:28:53 PM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 7:28:53 PM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 7:28:53 PM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 7:28:53 PM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 7:28:53 PM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 7:28:53 PM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 7:28:53 PM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 7:28:53 PM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 7:28:53 PM seedu.duke.ui.Ui println
+FINE: Printed to console: Now what is your first guess? ('guide' for a guide on how to play Hangman!)
+Apr 15, 2024 7:28:53 PM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 7:28:56 PM seedu.duke.ui.Ui println
+FINE: Printed to console: Thank you!! Hope you had flying good time.
+Apr 15, 2024 7:28:56 PM seedu.duke.ui.Ui println
+FINE: Printed to console: Now what would you like to do?
+>>>>>>> 2fa6d6aff519d912bd2935c45e9e1c941598ccaf

@@ -12,9 +12,9 @@ public class Game {
     protected static final Render render = new Render();
     private static final TimerTutorial tutorial = new TimerTutorial();
     protected static final Ui ui = new Ui(render, tutorial);
-    protected boolean isExit; // true to exit
     protected String gameName;
     protected int gameOutcome; //0 for lose, 1 for win, 2 for draw (TTT only), 3 for quit.
+
     /**
      * creates a game
      *
@@ -22,7 +22,6 @@ public class Game {
      */
     public Game(String line) {
         gameName = line;
-        isExit = false; //not used for nw
         gameOutcome = 0;
         assert (gameOutcome == 0);
     }
@@ -45,14 +44,28 @@ public class Game {
         ui.println("Let me explain the rules of this game:");
     }
 
+    /**
+     * Sets the gameOutcome to 1
+     * This denotes a win in that game
+     */
     public void gameWon() {
         this.gameOutcome = 1;
     }
 
+    /**
+     * Sets the gameOutcome to 3
+     * This denotes the user quit the game halfway
+     */
     public void gameQuit() {
         this.gameOutcome = 3;
     }
 
+    /**
+     * Sets the gameOutcome to 2
+     * This denotes the game ended in a draw with the program
+     * This method is only applicable for Tic-Tac-Toe as TTT can result in draw
+     * Whereas hangman does not
+     */
     public void gameDraw() {
         this.gameOutcome = 2;
     }

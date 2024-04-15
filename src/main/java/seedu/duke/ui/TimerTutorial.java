@@ -3,16 +3,24 @@ package seedu.duke.ui;
 import java.util.Timer;
 import java.util.TimerTask;
 
+/**
+ * The TimerTutorial class retrieves tutorial frames from Render and displays each frame every 4 seconds.
+ */
 public class TimerTutorial {
     private boolean tutorialRunning = false; // Flag to track if tutorial is running
 
-
+    /**
+     * Checks if a tutorial is currently running.
+     *
+     * @return true if a tutorial is running, false otherwise.
+     */
     public boolean isTutorialRunning() {
         return tutorialRunning;
     }
 
     /**
-     * Displays the Tic-tac-toe (TTT) tutorial.
+     * Displays the TTT tutorial. It retrieves tutorial frames from the Render class
+     * and displays each frame every 4 seconds until the tutorial is complete after 7 frames.
      */
     public void displayTTTTutorial() {
         tutorialRunning = true;
@@ -22,7 +30,8 @@ public class TimerTutorial {
     }
 
     /**
-     * Displays the Hangman tutorial.
+     * Displays the Hangman tutorial. It retrieves tutorial frames from the Render class
+     * and displays each frame every 4 seconds until the tutorial is complete after 9 frames.
      */
     public void displayHangmanTutorial() {
         tutorialRunning = true;
@@ -42,7 +51,6 @@ public class TimerTutorial {
     private void scheduleTutorialFrames(String[] frames, int interval) {
         Timer timer = new Timer();
         int[] index = {0}; // Array to store the current frame index
-
         tutorialRunning = true;
 
         TimerTask task = new TimerTask() {

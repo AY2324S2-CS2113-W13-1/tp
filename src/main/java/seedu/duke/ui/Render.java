@@ -1,11 +1,13 @@
 package seedu.duke.ui;
 import java.util.Random;
 
-
+/**
+ * The Render Class contains all ASCII art, messages, and tutorial frames to be executed in Ui Class.
+ */
 public class Render {
 
     /**
-     * Array of sentences to be chosen at random for quitUser()
+     * Array of sentences to be chosen at random for quitUser().
      */
     public static String[] BYE_SENTENCES = {
         "AeroCade dismissed. Fly with honor and return victorious.",
@@ -14,6 +16,9 @@ public class Render {
         "Permission to depart granted. Execute your flight plan with discipline."
     };
 
+    /**
+     * ASCII Aerocade logo to be displayed at the start.
+     */
     public static String logo = "\n\n\n" + Ui.LINE + "\n" +
             "               _______  _______  ______    _______              \n" +
             "              |   _   ||       ||    _ |  |       |             \n" +
@@ -30,6 +35,9 @@ public class Render {
             "              |     |_ |   _   ||       ||   |___     |  |      \n" +
             "              |_______||__| |__||______| |_______|    | / \\  \n\n" ;
 
+    /**
+     * ASCII boeing art to be displayed at the start and at the end of program
+     */
     public static String boeing =
             "                                |                              \n" +
             "                              .-'-.                            \n" +
@@ -40,7 +48,9 @@ public class Render {
             "                  \\    /  ||/   H   \\||  \\    /             \n" +
             "                   '--'   OO   O|O   OO   '--' \n              \n";
 
-
+    /**
+     * ASCII menu selection art to be displayed at the start
+     */
     private final String menu =
             "\n              [      Welcome to the AeroCade      ]\n" + Ui.LINE + "\n" +
             "              [          Choose your game:        ]                \n" +
@@ -97,6 +107,11 @@ public class Render {
                 "'quit' to exit the program\n"+ Ui.LINE);
     }
 
+    /**
+     * Retrieves an array of 7 TTT Tutorial frames, each frame to be called in TimerTutorial every 4 seconds.
+     *
+     * @return An array of strings detailing each frame of the TTT tutorial.
+     */
     public static String[] getTTTFrames() {
         return new String[] { Ui.LINE +
                 "\n[Tutorial Mode is playing, do not input any commands!]\n" +
@@ -156,6 +171,12 @@ public class Render {
                         "[Tutorial Mode over, resuming commands in 4 seconds!]\n" + Ui.LINE
         };
     }
+
+    /**
+     * Retrieves an array of 9 Hangman Tutorial frames, each frame to be called in TimerTutorial every 4 seconds.
+     *
+     * @return An array of strings detailing each frame of the Hangman tutorial.
+     */
     public static String[] getHangmanFrames() {
         return new String[] { Ui.LINE +
                 "\n[Tutorial Mode is playing, do not input any commands!]\n" +
