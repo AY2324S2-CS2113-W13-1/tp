@@ -101,41 +101,42 @@ public class Duke {
                         System.out.println("What category would you like to choose? These are the options:");
                         System.out.println("animals, countries, fruits & sports");
 
-                        boolean isQuit = false;
                         String category = Parser.readLine().trim();
-                        while (!Parser.validHMCategory(category)) {
-                            if (Parser.ifQuit(category)) {
-                                isQuit = true;
+
+                        if (!Parser.validHMCategory(category)) {
+                            while (!Parser.validHMCategory(category)) {
+                                if (Parser.ifQuit(category)) {
+                                    inGame = false;
+                                    ui.println(Ui.LINE);
+                                    ui.println("Exiting hangman. Play again soon!");
+                                    ui.println("Now what would you like to do?");
+                                    break;
+                                }
+                                ui.println("That's not a category :O.");
+                                ui.println("Please try again");
+                                category = Parser.readLine().trim();
+                            }
+                        } else {
+                            games.add(new HangMan(category));
+                            switch (games.get(gameCounter).runGame()) {
+                            case 0:
+                                //Game lost
+                                break;
+                            case 1:
+                                //Game won
+                                games.get(gameCounter).gameWon();
+                                break;
+                            case 3:
+                                //Game quit
+                                games.get(gameCounter).gameQuit();
+                                break;
+                            default:
                                 break;
                             }
-                            ui.println("That's not a category :O.");
-                            category = Parser.readLine().trim();
+                            gameCounter++;
+                            ui.println("Now what would you like to do?");
+                            inGame = false;
                         }
-
-                        if (isQuit) {
-                            ui.quitUser();
-                            break;
-                        }
-
-                        games.add(new HangMan(category));
-                        switch(games.get(gameCounter).runGame()) {
-                        case 0:
-                            //Game lost
-                            break;
-                        case 1:
-                            //Game won
-                            games.get(gameCounter).gameWon();
-                            break;
-                        case 3:
-                            //Game quit
-                            games.get(gameCounter).gameQuit();
-                            break;
-                        default:
-                            break;
-                        }
-                        gameCounter ++;
-                        ui.println("Now what would you like to do?");
-                        inGame = false;
                     } else if (Parser.ifHelp(input)) {
                         ui.printHelp();
                         inGame = false;
