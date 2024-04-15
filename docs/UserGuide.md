@@ -71,6 +71,7 @@ optimized for use via a Command Line Interface (CLI) while still having the core
    * Pick a box in the grid to occupy by choosing number `1/2/3/4/5/6/7/8/9`.
    * At any point, if you want to quit, simply type `quit`
    * At the same time, if you need a guide, type `guide`
+   
    Format: `TTT`
 
    ```
