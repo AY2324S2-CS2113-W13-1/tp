@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
 # AeroCade User Guide
 
 ## Introduction
@@ -210,6 +213,10 @@ The `stats` command will display:
 
 ### <span style="color:grey;">In-Game Guides</span>
 
+<div markdown="span" class="alert alert-primary">
+💡 Tip: Use the tutorial to learn the game first, then use the guide if you face further issues in-game
+</div>
+
 **Q**: Where can I find a guide on understanding the game rules? 
 
 **A**: Open a game with `TTT` or `hangman` and open the game guide with `guide`. Below is an example when opening
@@ -288,9 +295,7 @@ _________________________________________________________________
 (... More Frames to be shown)
 ```
 
-<div markdown="span" class="alert alert-primary">
-:bulb: **Tip:** Use the tutorial to learn the game first, use the guide if you face further issues in-game
-</div>
+
 
 ## Known Issues
 1. Tutorial Mode is still active 4 seconds after displaying the whole tutorial.
