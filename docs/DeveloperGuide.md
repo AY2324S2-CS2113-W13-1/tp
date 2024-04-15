@@ -18,8 +18,8 @@ Here is a quick overview of the main components and how they interact with each 
 - [Ui](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#ui-implementation): The UI of the App
 - 
 - [Game](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#game-implementation): The Interface concerning the games
-- [TicTacToe](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#tictactoe-implementation): Game 1
-- [Hangman](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#hangman-implementation): Game 2
+- [TicTacToe](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#tictactoe-implementation): TicTacToe Game 
+- [Hangman](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#hangman-implementation): Hangman Game 
 
 ### <span style="color:grey;">Parser Implementation:</span>
 Parser Class (v2.1) reads user input from the standard input stream, checks the input, 
@@ -37,7 +37,24 @@ The (partial) class diagram is illustrated below:
 
 ![Ui.png](Ui.png)
 
-The `UI` component,
+- **Ui Class:** Contains 6 methods that work with the other classes `Render.java` and `TimerTutorial.java`. These
+  methods are extracted to display various types of messages and art. These include `greetUser()`,
+  `quitUser()`, `printHelp()`, `printTTTTutorial()`, `printHangmanTutorial()`, and `println()`
+  - `greetUser()` and `quitUser()` displays the greetings and _randomised_ farewells, including art.
+  - `printHelp()` prints the descriptive help message.
+  - `printTTTTutorial()` and `printHangmanTutorial()` displays a gameplay tutorial of each game, displaying a frame
+    every 4 seconds.
+  -  `println()` is a simple and convenient method to call for other classes.
+
+
+- **Render Class:** Contains all the art and messages that are called in `Ui.java`
+
+
+- **TimerTutorial Class** Contains two display methods `displayTTTTutorial()` and `displayHangmanTutorial()` which
+  displays every frame of the tutorial, and a schedule method `scheduleTutorialFrames(frames, interval)` is used to
+  `run()` a frame every 4 seconds.
+
+**The `UI` component,**
 
 * reads user commands using `Parser` component.
 * displays various ASCII art, messages and tutorial frames through `Render`.

@@ -20,8 +20,8 @@ runGame(), printLettersGuessed(), addGuess() & howToPlay().
 
 **Enhancements to existing features:**
 * updated code in Duke to ensure the main loop continues to request input when a game ends.
-* added category feature to HangMan for users to pick between 4 categories of words to guess from
-* added full word guessing feature to HangMan in addition to just letters.
+* added category choosing capability to HangMan for users to pick between 4 categories of words to guess from
+* added full word guessing capability to HangMan in addition to just letters.
 
 
 
@@ -30,7 +30,7 @@ runGame(), printLettersGuessed(), addGuess() & howToPlay().
 **Documentation:**
 
 - User Guide:
-  - Added Features of HangMan and TicTacToe
+  - Added Features of HangMan
   - Added content to FAQ
   - Added command summary
 

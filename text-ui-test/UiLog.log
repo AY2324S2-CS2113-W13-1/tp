@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Apr 15, 2024 8:32:26 AM seedu.duke.ui.Ui greetUser
 INFO: Displayed game menu to user.
 Apr 15, 2024 8:32:58 AM seedu.duke.ui.Ui println
@@ -952,3 +953,12 @@ Apr 15, 2024 8:41:10 AM seedu.duke.ui.Ui println
 FINE: Printed to console: Now what would you like to do?
 Apr 15, 2024 8:41:19 AM seedu.duke.ui.Ui quitUser
 INFO: Displayed farewell message to user.
+=======
+Apr 15, 2024 8:57:24 PM seedu.duke.ui.Ui startTutorial
+INFO: Started Hangman Tutorial.
+Apr 15, 2024 8:57:24 PM seedu.duke.ui.Ui println
+FINE: Printed to console: Hangman Tutorial exited! Returning back to the Main Menu in 4 seconds...
+_________________________________________________________________
+Apr 15, 2024 8:57:28 PM seedu.duke.ui.Ui handleInputsDuringTutorial
+INFO: Ended Hangman Tutorial.
+>>>>>>> fce56e74ab0945f824a314b1e6523a8614746a59

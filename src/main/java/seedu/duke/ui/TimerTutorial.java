@@ -43,7 +43,7 @@ public class TimerTutorial {
 
     /**
      * Displays tutorial frames at specified intervals using a timer. Inputs will not be read till
-     * all frames are displayed
+     * all frames are displayed.
      *
      * @param frames   The frames of the tutorial.
      * @param interval The interval (in milliseconds) between displaying each frame.
@@ -51,27 +51,53 @@ public class TimerTutorial {
     private void scheduleTutorialFrames(String[] frames, int interval) {
         Timer timer = new Timer();
         int[] index = {0}; // Array to store the current frame index
-        tutorialRunning = true;
+        TimerTask task = createTimerTask(timer, frames, index);
+        timer.scheduleAtFixedRate(task, 0, interval); // Schedule the task to run at fixed intervals
+    }
 
-        TimerTask task = new TimerTask() {
+    /**
+     * Creates a TimerTask that handles the display of tutorial frames and checks for quit conditions.
+     *
+     * @param timer  The timer object to schedule the task.
+     * @param frames The frames of the tutorial to display.
+     * @param index  The current frame index in the String[].
+     * @return A new TimerTask for handling frame display.
+     */
+    private TimerTask createTimerTask(Timer timer, String[] frames, int[] index) {
+        return new TimerTask() {
             @Override
             public void run() {
-                if (Ui.stopTutorial) { // Check if stop command
-                    timer.cancel();
-                    tutorialRunning = false;
-                    return;
-                }
-                if (index[0] != frames.length) {
-                    tutorialRunning = true;
-                    System.out.println(frames[index[0]]); // Print the current frame
-                    index[0]++;
-                } else {
-                    tutorialRunning = false;
-                    timer.cancel();
-                    return;
-                }
+                handleFrameDisplay(timer, frames, index);
             }
         };
-        timer.scheduleAtFixedRate(task, 0, interval); // Schedule the task to run at fixed intervals
+    }
+
+    /**
+     * Handles the display of a single frame or stops the tutorial if quit or
+     * if all frames have been displayed.
+     *
+     * @param timer  The timer to potentially cancel.
+     * @param frames The frames of the tutorial.
+     * @param index  The current index of the frame being displayed.
+     */
+    private void handleFrameDisplay(Timer timer, String[] frames, int[] index) {
+        if (Ui.stopTutorial) { // Check if quit command
+            stopTutorial(timer);
+        } else if (index[0] < frames.length) {
+            System.out.println(frames[index[0]]); // Print the current frame
+            index[0]++;
+        } else {
+            stopTutorial(timer); //after all frames are used.
+        }
+    }
+
+    /**
+     * Stops the tutorial and cancels the timer.
+     *
+     * @param timer The timer to cancel.
+     */
+    private void stopTutorial(Timer timer) {
+        tutorialRunning = false;
+        timer.cancel();
     }
 }

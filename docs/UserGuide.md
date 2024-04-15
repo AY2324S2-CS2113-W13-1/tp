@@ -169,6 +169,7 @@ optimized for use via a Command Line Interface (CLI) while still having the core
    ==============
    
    Oh noo!! It seems you have lost   :( 
+   The correct answer is [stork]
    Now what would you like to do?
    ```
 

@@ -137,18 +137,35 @@ public class HangMan extends Game {
             printHangMan();
             ui.println("\nOh noo!! It seems you have lost   :( ");
             //returns 0 if lost
-            ui.println("The correct answer is " + chosenWord);
+            ui.println("The correct answer is [" + chosenWord + "]");
             return 0;
         }
         return 0;
     }
+
+    /**
+     * Retrieves the number of letters guessed.
+     *
+     * @return the number of letters guessed
+     */
     public int getNumberOfLettersGuessed() {
         return numberOfLettersGuessed;
     }
+
+    /**
+     * Retrieves the list of all guessed letters.
+     *
+     * @return an ArrayList containing all guessed letters
+     */
     public ArrayList<String> getAllGuessedLetters() {
         return allGuessedLetters;
     }
 
+    /**
+     * Retrieves the current state of the game.
+     *
+     * @return the current state of the game
+     */
     public int getState() {
         return state;
     }

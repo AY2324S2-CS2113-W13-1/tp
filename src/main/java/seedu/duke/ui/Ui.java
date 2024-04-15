@@ -22,7 +22,9 @@ public class Ui {
     private final Render render;
     private final TimerTutorial tutorial;
 
-    static { setupLogging(); }
+    static {
+        setupLogging();
+    }
 
 
     /**
@@ -40,27 +42,45 @@ public class Ui {
      */
     private static void setupLogging() {
         try {
-            File logFile = new File(FILE_PATH);
-            if (!logFile.getParentFile().exists()) {
-                logFile.getParentFile().mkdirs();
-            }
-
-            // Configure the logger to write to a file, overwriting the existing file
-            FileHandler fileHandler = new FileHandler(FILE_PATH, false);
-            fileHandler.setFormatter(new SimpleFormatter());
-            logger.addHandler(fileHandler);
-            logger.setLevel(Level.ALL); // Log all levels of messages
-
-            // Adjust console logging levels
-            Logger rootLogger = Logger.getLogger("");
-            ConsoleHandler consoleHandler = findConsoleHandler(rootLogger);
-            if (consoleHandler != null) {
-                consoleHandler.setLevel(Level.WARNING); // Only log WARNING and above to console
-            }
+            createLogFileIfNotExists();
+            configureFileLogging();
+            configureConsoleLogging();
         } catch (IOException e) {
             logger.log(Level.SEVERE, "Error occurred during logging setup.", e);
         }
     }
+
+    /**
+     * Ensures that the log file and its parent directories exist. Creates one if it doesn't exist.
+     */
+    private static void createLogFileIfNotExists() throws IOException {
+        File logFile = new File(FILE_PATH);
+        if (!logFile.getParentFile().exists()) {
+            logFile.getParentFile().mkdirs();
+        }
+    }
+
+    /**
+     * Configures logger to write to UiLog.log file.
+     */
+    private static void configureFileLogging() throws IOException {
+        FileHandler fileHandler = new FileHandler(FILE_PATH, false);
+        fileHandler.setFormatter(new SimpleFormatter());
+        logger.addHandler(fileHandler);
+        logger.setLevel(Level.ALL); // Log all levels of messages
+    }
+
+    /**
+     * Configures console logging to only log WARNING and above.
+     */
+    private static void configureConsoleLogging() {
+        Logger rootLogger = Logger.getLogger("");
+        ConsoleHandler consoleHandler = findConsoleHandler(rootLogger);
+        if (consoleHandler != null) {
+            consoleHandler.setLevel(Level.WARNING); // Only log WARNING and above to console
+        }
+    }
+
 
     /**
      * Finds and returns the ConsoleHandler from the root logger.
@@ -130,26 +150,53 @@ public class Ui {
      * @param tutorialName The name of the tutorial to be displayed, either TTT or Hangman
      */
     private void handleTutorial(Runnable displayMethod, String tutorialName) {
-        Scanner in = new Scanner(System.in);
+        startTutorial(displayMethod, tutorialName);
+        handleInputsDuringTutorial(tutorialName);
+    }
+
+    /**
+     * Starts the tutorial and logs the start.
+     *
+     * @param displayMethod The tutorial display method to run.
+     * @param tutorialName The name of the tutorial being started.
+     */
+    private void startTutorial(Runnable displayMethod, String tutorialName) {
         stopTutorial = false;
         displayMethod.run();
         logger.info("Started " + tutorialName + ".");
+    }
+
+    /**
+     * Processes user inputs during the tutorial using a tutorialRunning flag from TimerTutorial
+     *
+     * @param tutorialName The name of the tutorial.
+     */
+    private void handleInputsDuringTutorial(String tutorialName) {
+        Scanner in = new Scanner(System.in);
 
         while (tutorial.isTutorialRunning()) {
             if (in.hasNextLine()) {
                 String input = in.nextLine().trim();
-
-                if (Parser.ifQuit(input)) {
-                    stopTutorial = true;
-                    println(tutorialName + " exited! Returning back to the Main Menu...\n" + Ui.LINE);
-                    break;
-                } else {
-                    println("Tutorial Pilot: Hey! I'm still teaching a tutorial here!");
-                    logger.info("Ignored input during " + tutorialName + ": " + input);
-                }
+                quitOrIgnoreInput(input, tutorialName);
             }
         }
         logger.info("Ended " + tutorialName + ".");
+    }
+
+    /**
+     * Ignores every input except quit, which quits tutorial mode.
+     *
+     * @param input The user's input.
+     * @param tutorialName The name of the tutorial.
+     */
+    private void quitOrIgnoreInput(String input, String tutorialName) {
+        if (Parser.ifQuit(input)) {
+            stopTutorial = true;
+            println(tutorialName + " exited! Returning back to the Main Menu in 4 seconds...\n" + Ui.LINE);
+        } else {
+            println("Tutorial Pilot: Hey! I'm still teaching a tutorial here!");
+            logger.info("Ignored input during " + tutorialName + ": " + input);
+        }
     }
 
     /**

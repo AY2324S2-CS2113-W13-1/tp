@@ -96,9 +96,18 @@ public class Parser {
         }
     }
 
+    /**
+     * Parses the input string to determine the type of guess.
+     *
+     * @param input the input string to parse
+     * @return an integer representing the type of guess:
+     *           1 if the input string has a length of 1
+     *           2 if the input string has a length greater than 1
+     *           0 if the input string is null
+     */
     //@@author nigelheng
     public static int parseGuess(String input) {
-        if (input == null) {
+        if (input.isEmpty()) {
             return 0;
         }
         int guessType;
@@ -110,6 +119,13 @@ public class Parser {
         return guessType;
     }
 
+    /**
+     * Checks if the input string contains only English alphabets.
+     *
+     * @param input the input string to check
+     * @return true if the input string contains only English alphabets,
+     *         false otherwise
+     */
     public static boolean containsEnglishAlphabetsOnly(String input) {
         Pattern pattern = Pattern.compile("[^a-zA-Z]");
         return !pattern.matcher(input).find();
@@ -119,6 +135,13 @@ public class Parser {
         return allGuessedLetters.contains(input);
     }
 
+    /**
+     * Checks if there are any remaining blanks (underscores) in the current guess.
+     *
+     * @param currentGuess the current guess string
+     * @return true if there are no remaining blanks (underscores) in the current guess,
+     *         false otherwise
+     */
     //@@author nigelheng
     public static boolean checkRemainingBlanks(String currentGuess) {
         return !currentGuess.contains("_");
