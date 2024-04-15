@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Apr 15, 2024 8:32:26 AM seedu.duke.ui.Ui greetUser
 INFO: Displayed game menu to user.
 Apr 15, 2024 8:32:58 AM seedu.duke.ui.Ui println
@@ -962,3 +963,52 @@ _________________________________________________________________
 Apr 15, 2024 8:57:28 PM seedu.duke.ui.Ui handleInputsDuringTutorial
 INFO: Ended Hangman Tutorial.
 >>>>>>> fce56e74ab0945f824a314b1e6523a8614746a59
+=======
+Apr 15, 2024 9:16:54 PM seedu.duke.ui.Ui greetUser
+INFO: Displayed game menu to user.
+Apr 15, 2024 9:17:00 PM seedu.duke.ui.Ui println
+FINE: Printed to console: That's not a category :O.
+Apr 15, 2024 9:17:00 PM seedu.duke.ui.Ui println
+FINE: Printed to console: Please try again
+Apr 15, 2024 9:17:01 PM seedu.duke.ui.Ui println
+FINE: Printed to console: That's not a category :O.
+Apr 15, 2024 9:17:01 PM seedu.duke.ui.Ui println
+FINE: Printed to console: Please try again
+Apr 15, 2024 9:17:02 PM seedu.duke.ui.Ui println
+FINE: Printed to console: That's not a category :O.
+Apr 15, 2024 9:17:02 PM seedu.duke.ui.Ui println
+FINE: Printed to console: Please try again
+Apr 15, 2024 9:17:05 PM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 9:17:05 PM seedu.duke.ui.Ui println
+FINE: Printed to console: Exiting hangman. Play again soon!
+Apr 15, 2024 9:17:05 PM seedu.duke.ui.Ui println
+FINE: Printed to console: Now what would you like to do?
+Apr 15, 2024 9:17:10 PM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 9:17:10 PM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 9:17:10 PM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 9:17:10 PM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 9:17:10 PM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 9:17:10 PM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 9:17:10 PM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 9:17:10 PM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 9:17:10 PM seedu.duke.ui.Ui println
+FINE: Printed to console: Now what is your first guess? ('guide' for a guide on how to play Hangman!)
+Apr 15, 2024 9:17:10 PM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 9:17:13 PM seedu.duke.ui.Ui println
+FINE: Printed to console: Thank you!! Hope you had flying good time.
+_________________________________________________________________
+Apr 15, 2024 9:17:13 PM seedu.duke.ui.Ui println
+FINE: Printed to console: Now what would you like to do?
+Apr 15, 2024 9:17:15 PM seedu.duke.ui.Ui quitUser
+INFO: Displayed farewell message to user.
+>>>>>>> 1dfb1f2b9bd6de4b51361dc0932574d78c130512

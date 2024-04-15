@@ -12,7 +12,9 @@ optimized for use via a Command Line Interface (CLI) while still having the core
    * [Playing a game of Hangman](https://ay2324s2-cs2113-w13-1.github.io/tp/UserGuide.html#playing-a-game-of-hangman)
    * [Viewing of Game statistics](https://ay2324s2-cs2113-w13-1.github.io/tp/UserGuide.html#viewing-of-game-statistics)
    * [In-Game Guides](https://ay2324s2-cs2113-w13-1.github.io/tp/UserGuide.html#in-game-guides) 
+* [Known Issues](https://ay2324s2-cs2113-w13-1.github.io/tp/UserGuide.html#known-issues)
 * [Command Summary](https://ay2324s2-cs2113-w13-1.github.io/tp/UserGuide.html#command-summary)
+
 
 ## Quick Start
 
@@ -26,12 +28,13 @@ optimized for use via a Command Line Interface (CLI) while still having the core
 ## Features
 
 
-### Playing a game of TicTacToe
+### <span style="color:grey;">Playing a game of TicTacToe</span>
 
 1. Entering `tutorial` mode: type `TTT tutorial`
    * Detailed tutorial showing the gameplay mechanics of how to win TicTacToe.
    * Timed aspect of 4 seconds per frame.
 
+   Format: `TTT tutorial`
    Start of TicTacToe tutorial:
    
    ```
@@ -64,6 +67,8 @@ optimized for use via a Command Line Interface (CLI) while still having the core
    * Choose your difficulty, either `easy` or `hard`, and type it in.
    * Pick a box in the grid to occupy by choosing number `1/2/3/4/5/6/7/8/9`.
    * At any point, if you want to quit, simply type `quit`
+
+   Format: `TTT`
 
    ```
      1 | 2 | 3
@@ -98,12 +103,14 @@ optimized for use via a Command Line Interface (CLI) while still having the core
    Now what would you like to do?
    ```
 
-### Playing a game of Hangman
+### <span style="color:grey;">Playing a game of Hangman</span>
 
 1. Entering `tutorial` mode: type `hangman tutorial`
    * Detailed tutorial showing the ideal thought process of playing while showing
    the number of mistakes allowed
    * Timed aspect of 4 seconds per frame.
+
+   Format: `hangman tutorial`
 
    Start of Hangman tutorial: 
 
@@ -141,6 +148,8 @@ optimized for use via a Command Line Interface (CLI) while still having the core
    * Guess a letter in the secret word by typing in the letter or if you are confident
    * Guess the whole secret word.
 
+   Format: `hangman`
+
    ```
    _______
    |     |
@@ -173,9 +182,12 @@ optimized for use via a Command Line Interface (CLI) while still having the core
    Now what would you like to do?
    ```
 
-### Viewing of Game statistics
+### <span style="color:grey;">Viewing of Game statistics</span>
+
 In the main menu, users can view their total game statistics.
 This can be done so through the `stats` command input into the CLI.
+
+Format: `stats`
 
 ```
 Type 'help' for a list of available commands!                  
@@ -196,12 +208,14 @@ The `stats` command will display:
 * Total number of Tic-Tac-Toe games tied
 * Total number of games users have quit and left without finishing
 
-### In-Game Guides
+### <span style="color:grey;">In-Game Guides</span>
 
 **Q**: Where can I find a guide on understanding the game rules? 
 
 **A**: Open a game with `TTT` or `hangman` and open the game guide with `guide`. Below is an example when opening
 `guide` while playing `hangman`.
+
+Format: `guide` _(only in-game)_
 
 ```
 Now what is your first guess? ('guide' for a guide on how to play Hangman!)
@@ -273,6 +287,14 @@ Tutorial Pilot: This is a TTT board which I'll be placing an 'X' depending on
 _________________________________________________________________
 (... More Frames to be shown)
 ```
+
+<div markdown="span" class="alert alert-primary">
+:bulb: **Tip:** Use the tutorial to learn the game first, use the guide if you face further issues in-game
+</div>
+
+## Known Issues
+1. Tutorial Mode is still active 4 seconds after displaying the whole tutorial.
+
 
 ## Command Summary
 

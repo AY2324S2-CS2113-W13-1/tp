@@ -26,6 +26,9 @@ methods are extracted to display various types of messages and art. These includ
 displays every frame of the tutorial, and a schedule method `scheduleTutorialFrames(frames, interval)` is used to 
 `run()` a frame every 4 seconds.
 
+
+- More in-depth details covered in the Developer Guide [here](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#ui-implementation).
+
 ### Contributions
 
 [Full RepoSense Contributions here.](https://nus-cs2113-ay2324s2.github.io/tp-dashboard/?search=jackie&breakdown=true&sort=groupTitle%20dsc&sortWithin=title&since=2024-02-23&timeframe=commit&mergegroup=&groupSelect=groupByRepos&checkedFileTypes=docs~functional-code~test-code~other)
@@ -36,9 +39,11 @@ displays every frame of the tutorial, and a schedule method `scheduleTutorialFra
 * Included assertions and exceptions in the main `Duke.java`, ensuring no NullPointer Exceptions during testing.
 * Included logging for Ui, the `UiLog.log` can be found in `./text-ui-test`
 * Executed 100% Class, Method and Line Test Coverage for the whole Ui Component
+* Done major refactorings of various methods such as `setupLogging()`, `handleTutorial(displayMethod, tutorial name)`, 
+and `scheduleTutorialFrames(frames, interval)` to ensure Code Quality and Maintainability.
 
 **Contributions to Developer Guide and User Guide:**
-* Added the Ui implementation section to both Developer Guide and User Guide
+* Added the Ui Component implementation section to both Developer Guide and User Guide
 
 **Debugging contributions:**
 * Ensured all checks by gradle and IO redirection tests pass, made several [Pull Requests](https://github.com/nus-cs2113-AY2324S2/tp/pull/14)
