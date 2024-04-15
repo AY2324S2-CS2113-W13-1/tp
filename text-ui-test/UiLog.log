@@ -1,7 +1,38 @@
-Apr 15, 2024 8:57:24 PM seedu.duke.ui.Ui startTutorial
+Apr 15, 2024 10:03:28 PM seedu.duke.ui.Ui startTutorial
+INFO: Started TTT Tutorial.
+Apr 15, 2024 10:03:28 PM seedu.duke.ui.Ui println
+FINE: Printed to console: TTT Tutorial exited! Returning back to the Main Menu in 4 seconds...
+_________________________________________________________________
+Apr 15, 2024 10:03:32 PM seedu.duke.ui.Ui handleInputsDuringTutorial
+INFO: Ended TTT Tutorial.
+Apr 15, 2024 10:03:33 PM seedu.duke.ui.Ui quitUser
+INFO: Displayed farewell message to user.
+Apr 15, 2024 10:03:33 PM seedu.duke.ui.Ui println
+FINE: Printed to console: Hello world!
+Apr 15, 2024 10:03:33 PM seedu.duke.ui.Ui startTutorial
 INFO: Started Hangman Tutorial.
-Apr 15, 2024 8:57:24 PM seedu.duke.ui.Ui println
+Apr 15, 2024 10:03:33 PM seedu.duke.ui.Ui println
 FINE: Printed to console: Hangman Tutorial exited! Returning back to the Main Menu in 4 seconds...
 _________________________________________________________________
-Apr 15, 2024 8:57:28 PM seedu.duke.ui.Ui handleInputsDuringTutorial
+Apr 15, 2024 10:03:37 PM seedu.duke.ui.Ui handleInputsDuringTutorial
 INFO: Ended Hangman Tutorial.
+Apr 15, 2024 10:03:37 PM seedu.duke.ui.Ui startTutorial
+INFO: Started TTT Tutorial.
+Apr 15, 2024 10:03:37 PM seedu.duke.ui.Ui println
+FINE: Printed to console: Tutorial Pilot: Hey! I'm still teaching a tutorial here!
+Apr 15, 2024 10:03:37 PM seedu.duke.ui.Ui quitOrIgnoreInput
+INFO: Ignored input during TTT Tutorial: random input
+Apr 15, 2024 10:04:05 PM seedu.duke.ui.Ui handleInputsDuringTutorial
+INFO: Ended TTT Tutorial.
+Apr 15, 2024 10:04:05 PM seedu.duke.ui.Ui printHelp
+INFO: Displayed help message.
+Apr 15, 2024 10:04:05 PM seedu.duke.ui.Ui startTutorial
+INFO: Started Hangman Tutorial.
+Apr 15, 2024 10:04:05 PM seedu.duke.ui.Ui println
+FINE: Printed to console: Tutorial Pilot: Hey! I'm still teaching a tutorial here!
+Apr 15, 2024 10:04:05 PM seedu.duke.ui.Ui quitOrIgnoreInput
+INFO: Ignored input during Hangman Tutorial: random input
+Apr 15, 2024 10:04:41 PM seedu.duke.ui.Ui handleInputsDuringTutorial
+INFO: Ended Hangman Tutorial.
+Apr 15, 2024 10:04:41 PM seedu.duke.ui.Ui greetUser
+INFO: Displayed game menu to user.
