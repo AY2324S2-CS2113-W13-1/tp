@@ -16,10 +16,10 @@ Here is a quick overview of the main components and how they interact with each 
 
 - [Parser](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#parser-implementation): Reads input
 - [Ui](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#ui-implementation): The UI of the App
-- 
 - [Game](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#game-implementation): The Interface concerning the games
 - [TicTacToe](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#tictactoe-implementation): TicTacToe Game 
 - [Hangman](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#hangman-implementation): Hangman Game 
+- [Storage](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#storage-class): Storage Class
 
 ### <span style="color:grey;">Parser Implementation:</span>
 Parser Class (v2.1) reads user input from the standard input stream, checks the input, 
@@ -126,8 +126,8 @@ The `HangMan` class:
   * Should the number of `_` be 0, the player has won.
 
 ### <span style="color:grey;">Storage Class:</span>
-Storage Class (v2.1) is intended to load and save statistics, such as player name and number of wins, to a data file. 
-Currently, this is unimplemented for its purpose. It may be further completed in a later version.
+Storage Class is intended to load and save statistics, such as player name and number of wins, to a data file. 
+Currently, this is unimplemented for its purpose. We plan to further develop this feature in a future release.
 
 
 This Sequence Diagram illustrates an overview of how the different classes interact with each other in the main
