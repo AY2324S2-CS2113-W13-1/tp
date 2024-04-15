@@ -138,6 +138,7 @@ Storage Class is intended to load and save statistics, such as player name and n
 Currently, this is unimplemented for its purpose. We plan to further develop this feature in a future release.
 
 
+## Visual Overview
 This Sequence Diagram illustrates an overview of how the different classes interact with each other in the main
 game loop.
 ![ParserSequence.png](ParserSequence.png)
@@ -159,10 +160,24 @@ of computer or setup they use.
 
 ## User Stories
 
-|Version| As a ... | I want to ... | So that I can ...|
-|--------|----------|---------------|------------------|
-|v1.0|new user|see usage instructions|refer to them when I forget how to use the application|
-|v2.0|user|find a to-do item by name|locate a to-do without having to go through the entire list|
+| Version | As a ...           | I want to ...                                    | So that I can ...                                                                          |
+|---------|--------------------|--------------------------------------------------|--------------------------------------------------------------------------------------------|
+| v1.0    | new user           | see program instructions                         | refer to them when I forget commands to navigate the gaming application                    |
+| v1.0    | lazy person        | play a game entirely with keys on my keyboard    | minimize movement while playing                                                            |
+| v1.0    | user               | play a game of Hangman                           | occupy myself with a harder, more engaging word-based game while travelling                |
+| v1.0    | user               | play a game of Tic Tac Toe                       | occupy myself with an easy, mindless game while travelling                                 |
+| v1.0    | child              | play these games peacefully on my own            | leave my parents alone while we're travelling                                              |
+| v1.0    | user               | quit a game whenever I want                      | try again, or give up and relax                                                            |
+| v1.0    | user               | play at my own pace                              | multitask and do other things while gaming during my trip                                  |
+| v2.0    | unfamiliar player  | see a dynamic gaming step-by-step tutorial       | see visually how to play both games                                                        |
+| v2.0    | user               | choose a difficulty level in Tic Tac Toe         | decide how challenged I want to feel in this game                                          |
+| v2.0    | user               | choose a theme of words in Hangman               | have a more cohesive and organized experience while playing Hangman, and have more control |
+| v2.0    | user               | see gaming guide while in Tic Tac Toe/Hangman    | recall how the game works without exiting to view the tutorial and returning again         |
+| v2.0    | competitive player | see how many games I've won and lost             | challenge myself to winning more games                                                     |
+| v2.0    | traveller          | play all these games without internet connection | locate a to-do without having to go through the entire list                                |
+| v2.0    | user               | see my past moves and retrace                    | find new strategies to win                                                                 |
+| v2.0    | user               | be prompted when I repeat the same attempts      | not lose points/tries because I forgot my past attempts                                    |
+
 
 ## Non-Functional Requirements
 
@@ -170,7 +185,7 @@ of computer or setup they use.
 
 ## Glossary
 
-* *glossary item* - Definition
+* *CLI* - Command Line Interface
 
 ## Instructions for Manual Testing
 ### <span style="color:grey;">Booting Up</span>
