@@ -1,6 +1,1 @@
-Apr 15, 2024 10:11:55 PM seedu.duke.ui.Ui greetUser
-INFO: Displayed game menu to user.
-Apr 15, 2024 10:12:07 PM seedu.duke.ui.Ui println
-FINE: Printed to console: Invalid Game. Type 'help' for list of available commands.
-Apr 15, 2024 10:12:10 PM seedu.duke.ui.Ui quitUser
-INFO: Displayed farewell message to user.
+

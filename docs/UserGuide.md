@@ -70,7 +70,7 @@ optimized for use via a Command Line Interface (CLI) while still having the core
    * Choose your difficulty, either `easy` or `hard`, and type it in.
    * Pick a box in the grid to occupy by choosing number `1/2/3/4/5/6/7/8/9`.
    * At any point, if you want to quit, simply type `quit`
-
+   * At the same time, if you need a guide, type `guide`
    Format: `TTT`
 
    ```
@@ -81,16 +81,24 @@ optimized for use via a Command Line Interface (CLI) while still having the core
      7 | 8 | 9    
    ```
    ```
+   Choose: 'easy', our first champion, is a benchmark 
+   for all challengers to test their mettle against,
+   or 'hard', our second champion, is an Elder of the clouds.
    Which opponent do you desire, challenger?
    easy
+   _________________________________________________________________
+   I shall not shame you for desiring a weaker opponent
+   on whom to test your mettle,
+   but honor is not found in crushing the weak.
+   _________________________________________________________________
        |   |    
    -------------
        |   |    
    -------------
        |   |    
    _________________________________________________________________
+   Make your move, challenger.
    ```
-   
    ```
    _________________________________________________________________
    Make your move, challenger.

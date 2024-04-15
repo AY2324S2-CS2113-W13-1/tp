@@ -16,7 +16,8 @@ collaboratively with JackieNeoCEG
   * validHMCategory() ensures that the given user input for the question of HM category is, in fact, a valid hangman category.
   * my contribution to readGame was screening for the possibility that the user input was not a valid game name, not 'quit', and not 'help'
 
-**Storage Class**: this class is intended to load and save statistics, such as player name and number of wins, to a data file. 
+**Storage Class**: this class is intended to load and save statistics, such as player name and number of wins, to a data file.
+* Currently, this is unimplemented for its purpose. It may be further completed in a later version. 
 
 **Code contributed**: [RepoSense link](https://nus-cs2113-ay2324s2.github.io/tp-dashboard/?search=ttasnim5&breakdown=true)
 
@@ -35,3 +36,4 @@ collaboratively with JackieNeoCEG
 
 **Contributions to team-based tasks:**
 * Prioritized adding comprehensive UML diagrams to the team's documentation
+* Verified and cleaned up issues from PE-D in GitHub, making sure the issues were solved first by the team if the issue was not discarded as irrelevant.

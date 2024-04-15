@@ -18,6 +18,7 @@ Here is a quick overview of the main components and how they interact with each 
 
 - [Parser](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#parser-implementation): Reads input
 - [Ui](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#ui-implementation): The UI of the App
+- 
 - [Game](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#game-implementation): The Interface concerning the games
 - [TicTacToe](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#tictactoe-implementation): TicTacToe Game 
 - [Hangman](https://ay2324s2-cs2113-w13-1.github.io/tp/DeveloperGuide.html#hangman-implementation): Hangman Game 
@@ -31,7 +32,6 @@ Briefly, the Parser class interacts with the main program by reading the inputs 
 values if the inputs are unexpected. This behavior is then handled by the Duke class or TicTacToe class. Parser
 also screens for the content of the input, specifically if the content is one of the non-gaming commands such as 'quit'
 or 'help'
-![ParserSequence.png](ParserSequence.png)
 
 ### <span style="color:grey;">UI Implementation:</span>
 The `UI` consists of three classes: `Ui.java`, `Render.java`, and `TimerTutorial.java`.
@@ -132,6 +132,15 @@ The `HangMan` class:
     * Should the `state` reach 6, the game is lost.
 * `runHangMan` checks for the number of `_` blank spaces left at each iteration of user input.
   * Should the number of `_` be 0, the player has won.
+
+### <span style="color:grey;">Storage Class:</span>
+Storage Class (v2.1) is intended to load and save statistics, such as player name and number of wins, to a data file. 
+Currently, this is unimplemented for its purpose. It may be further completed in a later version.
+
+
+This Sequence Diagram illustrates an overview of how the different classes interact with each other in the main
+game loop.
+![ParserSequence.png](ParserSequence.png)
 
 ## Product scope
 
