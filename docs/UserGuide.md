@@ -38,6 +38,7 @@ optimized for use via a Command Line Interface (CLI) while still having the core
    * Timed aspect of 4 seconds per frame.
 
    Format: `TTT tutorial`
+
    Start of TicTacToe tutorial:
    
    ```
