@@ -365,6 +365,21 @@ public class TicTacToe extends Game {
             strength = in.nextLine().trim().toLowerCase();
         }
 
+        if (strength.equals("easy")) {
+            ui.println(Ui.LINE);
+            ui.println("I shall not shame you for desiring a weaker opponent \n" +
+                        "on whom to test your mettle, \n" +
+                        "but honor is not found in crushing the weak.");
+            ui.println(Ui.LINE);
+        }
+        if (strength.equals("hard")) {
+            ui.println(Ui.LINE);
+            ui.println("So it is to be a battle, then! \n" +
+                        "Prepare, fledgling, and may the heavens speak of this battle \n" +
+                        "for ages to come.");
+            ui.println(Ui.LINE);
+        }
+
         while (checkWinner(turnCount).equals("unending")) {
             if (Parser.ifQuit(strength)) {
                 break;
