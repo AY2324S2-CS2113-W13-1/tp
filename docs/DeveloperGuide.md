@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
 # AeroCade Developer Guide
 
 ## Table of Contents
@@ -69,6 +71,12 @@ The (partial) class diagram is illustrated below:
 
 _A log file will also be made at `FILE_PATH "./text-ui-test/UiLog.log"` at start of program via `setupLogging()` in `Ui`,
 that records all Ui-related information and can be used for troubleshooting. The log file will refresh at every start._
+
+<div markdown="span" class="alert alert-warning">
+❗ Note: <br>
+The UiLog.log file may cause merge conflicts despite being in the .gitignore file.<br>
+Cause of bug is unknown.
+</div>
 
 _JUnit testing for functionality testing can be found at `UiTest.java` in `./src/main/test/java/seedu.duke`_
 
