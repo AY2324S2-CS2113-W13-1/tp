@@ -1,3 +1,969 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+Apr 15, 2024 8:32:26 AM seedu.duke.ui.Ui greetUser
+INFO: Displayed game menu to user.
+Apr 15, 2024 8:32:58 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:32:58 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:32:58 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:32:58 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:32:58 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:32:58 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:32:58 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:32:58 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:32:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Now what is your first guess? ('guide' for a guide on how to play Hangman!)
+Apr 15, 2024 8:32:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:33:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [a] is part of the word...
+Apr 15, 2024 8:33:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:33:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:33:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:33:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:33:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:33:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:33:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:33:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:33:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:33:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:33:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:33:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:33:37 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [e] is part of the word...
+Apr 15, 2024 8:33:37 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:33:37 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:33:37 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:33:37 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:33:37 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:33:37 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:33:37 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:33:37 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:33:37 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:33:37 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:33:37 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:33:37 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:33:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [r] is part of the word...
+Apr 15, 2024 8:33:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:33:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:33:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:33:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:33:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:33:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:33:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:33:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:33:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:33:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:33:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:33:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:34:14 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:34:14 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Woahhhh you won it!!
+Apr 15, 2024 8:34:14 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:34:14 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Now what would you like to do?
+Apr 15, 2024 8:34:29 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:34:29 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:34:29 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:34:29 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:34:29 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:34:29 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:34:29 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:34:29 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:34:29 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Now what is your first guess? ('guide' for a guide on how to play Hangman!)
+Apr 15, 2024 8:34:29 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:34:33 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [i] is part of the word...
+Apr 15, 2024 8:34:33 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:34:33 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:34:33 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:34:33 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     @
+Apr 15, 2024 8:34:33 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:34:33 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:34:33 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:34:33 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:34:33 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:34:33 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:34:33 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:34:33 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:34:41 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [o] is part of the word...
+Apr 15, 2024 8:34:41 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:34:41 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:34:41 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:34:41 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     @
+Apr 15, 2024 8:34:41 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:34:41 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:34:41 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:34:41 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:34:41 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:34:41 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:34:41 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:34:41 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:34:48 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [a] is part of the word...
+Apr 15, 2024 8:34:48 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:34:48 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:34:48 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:34:48 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     @
+Apr 15, 2024 8:34:48 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:34:48 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:34:48 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:34:48 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:34:48 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:34:48 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:34:48 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:34:48 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:34:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [e] is part of the word...
+Apr 15, 2024 8:34:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:34:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:34:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:34:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     @
+Apr 15, 2024 8:34:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:34:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:34:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:34:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:34:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:34:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:34:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:34:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:35:24 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [t] is part of the word...
+Apr 15, 2024 8:35:24 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:35:24 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:35:24 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:35:24 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     @
+Apr 15, 2024 8:35:24 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |    /|
+Apr 15, 2024 8:35:24 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:35:24 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:35:24 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:35:24 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:35:24 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:35:24 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:35:24 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:35:27 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [l] is part of the word...
+Apr 15, 2024 8:35:27 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:35:27 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:35:27 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:35:27 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     @
+Apr 15, 2024 8:35:27 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |    /|\
+Apr 15, 2024 8:35:27 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:35:27 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:35:27 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:35:27 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:35:27 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:35:27 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:35:27 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:35:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [r] is part of the word...
+Apr 15, 2024 8:35:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:35:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:35:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:35:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     @
+Apr 15, 2024 8:35:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |    /|\
+Apr 15, 2024 8:35:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:35:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:35:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:35:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:35:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:35:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:35:37 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:35:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:35:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Woahhhh you won it!!
+Apr 15, 2024 8:35:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:35:59 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Now what would you like to do?
+Apr 15, 2024 8:36:03 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Invalid Game. Type 'help' for list of available commands.
+Apr 15, 2024 8:36:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:36:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:36:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:36:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:36:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Now what is your first guess? ('guide' for a guide on how to play Hangman!)
+Apr 15, 2024 8:36:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:36:21 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [a] is part of the word...
+Apr 15, 2024 8:36:21 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:36:21 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:36:21 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:36:21 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:21 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:21 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:21 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:21 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:36:21 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:36:21 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:36:21 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:36:21 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:36:25 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:36:25 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Woahhhh you won it!!
+Apr 15, 2024 8:36:25 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:36:25 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Now what would you like to do?
+Apr 15, 2024 8:36:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:36:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:36:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:36:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:36:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Now what is your first guess? ('guide' for a guide on how to play Hangman!)
+Apr 15, 2024 8:36:36 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:36:43 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [o] is part of the word...
+Apr 15, 2024 8:36:43 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:36:43 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:36:43 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:36:43 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     @
+Apr 15, 2024 8:36:43 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:43 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:43 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:43 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:36:43 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:36:43 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:36:43 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:36:43 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:36:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [i] is part of the word...
+Apr 15, 2024 8:36:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:36:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:36:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:36:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     @
+Apr 15, 2024 8:36:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:36:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:36:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:36:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:36:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:36:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:37:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:37:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:37:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:37:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     @
+Apr 15, 2024 8:37:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:37:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:37:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:37:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:37:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:37:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:37:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:37:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:37:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [n] is part of the word...
+Apr 15, 2024 8:37:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:37:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:37:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:37:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     @
+Apr 15, 2024 8:37:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:37:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:37:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:37:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:37:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:37:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:37:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:37:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:37:28 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [a] is part of the word...
+Apr 15, 2024 8:37:28 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:37:28 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:37:28 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:37:28 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     @
+Apr 15, 2024 8:37:28 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:37:28 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:37:28 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:37:28 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:37:28 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:37:28 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:37:28 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:37:28 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:37:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [s] is part of the word...
+Apr 15, 2024 8:37:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:37:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:37:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:37:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     @
+Apr 15, 2024 8:37:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |    /|
+Apr 15, 2024 8:37:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:37:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:37:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:37:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:37:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:37:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:37:56 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:38:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [p] is part of the word...
+Apr 15, 2024 8:38:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:38:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:38:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:38:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     @
+Apr 15, 2024 8:38:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |    /|\
+Apr 15, 2024 8:38:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:38:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:38:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:38:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:38:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:38:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:38:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:38:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Checking to see if [t] is part of the word...
+Apr 15, 2024 8:38:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:38:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   _______
+Apr 15, 2024 8:38:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:38:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     @
+Apr 15, 2024 8:38:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |    /|\
+Apr 15, 2024 8:38:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |     |
+Apr 15, 2024 8:38:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   |
+Apr 15, 2024 8:38:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console: ==============
+Apr 15, 2024 8:38:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:38:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console: These are the guesses you have made so far:
+Apr 15, 2024 8:38:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console: give me your next guess
+Apr 15, 2024 8:38:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:38:28 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:38:28 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Woahhhh you won it!!
+Apr 15, 2024 8:38:28 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:38:28 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Now what would you like to do?
+Apr 15, 2024 8:38:44 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Choose: 'easy', our first champion, is a benchmark 
+for all challengers to test their mettle against, 
+or 'hard', our second champion, is an Elder of the clouds. 
+Which opponent do you desire, challenger?
+Apr 15, 2024 8:38:50 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:38:50 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:38:50 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:38:50 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:38:50 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:38:50 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:38:50 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:39:04 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:39:04 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:39:04 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     | O |    
+Apr 15, 2024 8:39:04 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:39:04 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X |   |    
+Apr 15, 2024 8:39:04 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:39:04 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:39:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:39:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:39:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     | O |    
+Apr 15, 2024 8:39:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:39:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X | O | X  
+Apr 15, 2024 8:39:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:39:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:39:18 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     | X | O  
+Apr 15, 2024 8:39:18 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:39:18 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     | O |    
+Apr 15, 2024 8:39:18 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:39:18 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X | O | X  
+Apr 15, 2024 8:39:18 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:39:18 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:39:26 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O | X | O  
+Apr 15, 2024 8:39:26 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:39:26 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X | O |    
+Apr 15, 2024 8:39:26 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:39:26 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X | O | X  
+Apr 15, 2024 8:39:26 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:39:26 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:39:30 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O | X | O  
+Apr 15, 2024 8:39:30 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:39:30 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X | O | X  
+Apr 15, 2024 8:39:30 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:39:30 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X | O | X  
+Apr 15, 2024 8:39:30 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:39:30 AM seedu.duke.ui.Ui println
+FINE: Printed to console: It seems you have met your match. Try again, and this time, do try to win.
+Apr 15, 2024 8:39:30 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:39:30 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Now what would you like to do?
+Apr 15, 2024 8:39:37 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Choose: 'easy', our first champion, is a benchmark 
+for all challengers to test their mettle against, 
+or 'hard', our second champion, is an Elder of the clouds. 
+Which opponent do you desire, challenger?
+Apr 15, 2024 8:39:40 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:39:40 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:39:40 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:39:40 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:39:40 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:39:40 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:39:40 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:39:42 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O |   |    
+Apr 15, 2024 8:39:42 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:39:42 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     | X |    
+Apr 15, 2024 8:39:42 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:39:42 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:39:42 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:39:42 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:39:58 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O |   | X  
+Apr 15, 2024 8:39:58 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:39:58 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     | X |    
+Apr 15, 2024 8:39:58 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:39:58 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O |   |    
+Apr 15, 2024 8:39:58 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:39:58 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:40:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O |   | X  
+Apr 15, 2024 8:40:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X | X | O  
+Apr 15, 2024 8:40:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O |   |    
+Apr 15, 2024 8:40:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:40:02 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:40:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O | O | X  
+Apr 15, 2024 8:40:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X | X | O  
+Apr 15, 2024 8:40:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O | X |    
+Apr 15, 2024 8:40:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:40:09 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:40:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O | O | X  
+Apr 15, 2024 8:40:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X | X | O  
+Apr 15, 2024 8:40:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O | X | X  
+Apr 15, 2024 8:40:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:40:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console: It seems you have met your match. Try again, and this time, do try to win.
+Apr 15, 2024 8:40:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:40:12 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Now what would you like to do?
+Apr 15, 2024 8:40:15 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Choose: 'easy', our first champion, is a benchmark 
+for all challengers to test their mettle against, 
+or 'hard', our second champion, is an Elder of the clouds. 
+Which opponent do you desire, challenger?
+Apr 15, 2024 8:40:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:40:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:40:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:40:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:40:17 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:40:20 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O |   |    
+Apr 15, 2024 8:40:20 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:20 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     | X |    
+Apr 15, 2024 8:40:20 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:20 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:40:20 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:40:20 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:40:35 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O |   |    
+Apr 15, 2024 8:40:35 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:35 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X | X | O  
+Apr 15, 2024 8:40:35 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:35 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:40:35 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:40:35 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:40:42 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O |   | O  
+Apr 15, 2024 8:40:42 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:42 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X | X | O  
+Apr 15, 2024 8:40:42 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:42 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X |   |    
+Apr 15, 2024 8:40:42 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:40:42 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:40:45 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O | O | O  
+Apr 15, 2024 8:40:45 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:45 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X | X | O  
+Apr 15, 2024 8:40:45 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:45 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X |   | X  
+Apr 15, 2024 8:40:45 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:40:45 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Your defeat has brought shame to the skies. Try again, if you dare.
+Apr 15, 2024 8:40:45 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:40:45 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Now what would you like to do?
+Apr 15, 2024 8:40:51 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Choose: 'easy', our first champion, is a benchmark 
+for all challengers to test their mettle against, 
+or 'hard', our second champion, is an Elder of the clouds. 
+Which opponent do you desire, challenger?
+Apr 15, 2024 8:40:55 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:40:55 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:55 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:40:55 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:55 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:40:55 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:40:55 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:40:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   |    
+Apr 15, 2024 8:40:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     | X |    
+Apr 15, 2024 8:40:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:40:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   | O  
+Apr 15, 2024 8:40:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:40:57 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:41:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X |   |    
+Apr 15, 2024 8:41:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:41:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O | X |    
+Apr 15, 2024 8:41:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:41:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   | O  
+Apr 15, 2024 8:41:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:41:00 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:41:06 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X | O | X  
+Apr 15, 2024 8:41:06 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:41:06 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O | X |    
+Apr 15, 2024 8:41:06 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:41:06 AM seedu.duke.ui.Ui println
+FINE: Printed to console:     |   | O  
+Apr 15, 2024 8:41:06 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:41:06 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Make your move, challenger.
+Apr 15, 2024 8:41:10 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X | O | X  
+Apr 15, 2024 8:41:10 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:41:10 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   O | X | O  
+Apr 15, 2024 8:41:10 AM seedu.duke.ui.Ui println
+FINE: Printed to console: -------------
+Apr 15, 2024 8:41:10 AM seedu.duke.ui.Ui println
+FINE: Printed to console:   X |   | O  
+Apr 15, 2024 8:41:10 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:41:10 AM seedu.duke.ui.Ui println
+FINE: Printed to console: You have claimed victory over the skies. Godspeed, champion.
+Apr 15, 2024 8:41:10 AM seedu.duke.ui.Ui println
+FINE: Printed to console: _________________________________________________________________
+Apr 15, 2024 8:41:10 AM seedu.duke.ui.Ui println
+FINE: Printed to console: Now what would you like to do?
+Apr 15, 2024 8:41:19 AM seedu.duke.ui.Ui quitUser
+INFO: Displayed farewell message to user.
+=======
+Apr 15, 2024 8:57:24 PM seedu.duke.ui.Ui startTutorial
+INFO: Started Hangman Tutorial.
+Apr 15, 2024 8:57:24 PM seedu.duke.ui.Ui println
+FINE: Printed to console: Hangman Tutorial exited! Returning back to the Main Menu in 4 seconds...
+_________________________________________________________________
+Apr 15, 2024 8:57:28 PM seedu.duke.ui.Ui handleInputsDuringTutorial
+INFO: Ended Hangman Tutorial.
+>>>>>>> fce56e74ab0945f824a314b1e6523a8614746a59
+=======
 Apr 15, 2024 9:16:54 PM seedu.duke.ui.Ui greetUser
 INFO: Displayed game menu to user.
 Apr 15, 2024 9:17:00 PM seedu.duke.ui.Ui println
@@ -45,3 +1011,4 @@ Apr 15, 2024 9:17:13 PM seedu.duke.ui.Ui println
 FINE: Printed to console: Now what would you like to do?
 Apr 15, 2024 9:17:15 PM seedu.duke.ui.Ui quitUser
 INFO: Displayed farewell message to user.
+>>>>>>> 1dfb1f2b9bd6de4b51361dc0932574d78c130512
