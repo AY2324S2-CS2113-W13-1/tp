@@ -38,12 +38,17 @@ displays every frame of the tutorial, and a schedule method `scheduleTutorialFra
 * Made 5 pull requests for debugging purposes, ensuring Gradle CheckStyles and I/O redirection tests passed successfully
 * Included assertions and exceptions in the main `Duke.java`, ensuring no NullPointer Exceptions during testing.
 * Included logging for Ui, the `UiLog.log` can be found in `./text-ui-test`
-* Executed 100% Class, Method and Line Test Coverage for the whole Ui Component
+* Executed above 95% Class, Method and Line Test Coverage for the whole Ui Component
+  ![img_1.png](img_1.png)
+
+
 * Done major refactorings of various methods such as `setupLogging()`, `handleTutorial(displayMethod, tutorial name)`, 
 and `scheduleTutorialFrames(frames, interval)` to ensure Code Quality and Maintainability.
 
+
 **Contributions to Developer Guide and User Guide:**
 * Added the Ui Component implementation section to both Developer Guide and User Guide
+* Added the partial class diagram for the Ui Component
 
 **Debugging contributions:**
 * Ensured all checks by gradle and IO redirection tests pass, made several [Pull Requests](https://github.com/nus-cs2113-AY2324S2/tp/pull/14)
@@ -54,3 +59,4 @@ related to this.
 11 bugs to be exact.
 * [Reviewed](https://github.com/nus-cs2113-AY2324S2/tp/pull/14/files/d1e6b3511ee5ca0c49db8c26978c35051fb7ae85#r1548934733)
 a pull request by [W14-4](https://github.com/nus-cs2113-AY2324S2/tp/pull/14), giving 4 useful comments.
+* [One post](https://github.com/nus-cs2113-AY2324S2/forum/issues/11#issuecomment-1935676712) in the CS2113 Forum
