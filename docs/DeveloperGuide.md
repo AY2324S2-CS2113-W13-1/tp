@@ -26,6 +26,7 @@ Here is a quick overview of the main components and how they interact with each 
 ### <span style="color:grey;">Parser Implementation:</span>
 Parser Class (v2.1) reads user input from the standard input stream, checks the input, 
 tests the validity, and conveys the validity back to the class it is called from.
+
 ![ParserClassDiagramV2](ParserClassDiagramV2.png)
 
 Briefly, the Parser class interacts with the main program by reading the inputs and throwing exceptions or returning specific
