@@ -28,6 +28,7 @@ within her Parser class file.
 **Contributions to Developer Guide:**
 * Added documentation of the `TTT` Class.
 * Added implementation of `TTT` Class methods / features.
+* Added Instructions for Manual Testing.
 
 **Contributions to User Guide**
 * Added input instructions for `TTT`.
