@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
 # AeroCade Developer Guide
 
 ## Table of Contents
@@ -69,6 +71,12 @@ The (partial) class diagram is illustrated below:
 
 _A log file will also be made at `FILE_PATH "./text-ui-test/UiLog.log"` at start of program via `setupLogging()` in `Ui`,
 that records all Ui-related information and can be used for troubleshooting. The log file will refresh at every start._
+
+<div markdown="span" class="alert alert-warning">
+❗ Note: <br>
+The UiLog.log file may cause merge conflicts despite being in the .gitignore file.<br>
+Cause of bug is unknown.
+</div>
 
 _JUnit testing for functionality testing can be found at `UiTest.java` in `./src/main/test/java/seedu.duke`_
 
@@ -180,5 +188,11 @@ of computer or setup they use.
 * *CLI* - Command Line Interface
 
 ## Instructions for Manual Testing
+### <span style="color:grey;">Booting Up</span>
+1. Download the `AeroCade.jar` file from GitHub.
+2. Open a command terminal and `cd` into the folder you put the game file in.
+3. Input `java -jar AeroCade.jar` to run the game!
 
-{Give instructions on how to do a manual product testing e.g., how to load sample data to be used for testing}
+### <span style="color:grey;">Shutting Down</span>
+1. If you are in a game, type `quit` to exit the game.
+2. Once you are in the main menu, signified by the prompt: `Now what would you like to do?`, type `quit` again to exit the program.

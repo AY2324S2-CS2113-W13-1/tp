@@ -31,7 +31,7 @@ Added some methods to parser class such as ifShowGuide() and ifShowStats
   - Added Quick Start
   - Added Features of HangMan and TicTacToe
   - Added content to FAQ
-  - Added command summary
+  - Added list of command summary
   
 - Developer Guide:
     - Added documentation of Game Class
@@ -40,3 +40,4 @@ Added some methods to parser class such as ifShowGuide() and ifShowStats
 - Community:
     - PRs reviewed (with non-trivial comments): 
     - Reported bugs and suggestions for other teams in the class (example: CS2113-W14-1)
+    - [Reported](https://github.com/YoengKokLeong/ped/issues) 8 bugs (above average number) during the PE dry run
