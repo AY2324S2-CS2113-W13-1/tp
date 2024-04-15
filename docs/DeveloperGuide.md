@@ -173,5 +173,11 @@ of computer or setup they use.
 * *glossary item* - Definition
 
 ## Instructions for Manual Testing
+### <span style="color:grey;">Booting Up</span>
+1. Download the `AeroCade.jar` file from GitHub.
+2. Open a command terminal and `cd` into the folder you put the game file in.
+3. Input `java -jar AeroCade.jar` to run the game!
 
-{Give instructions on how to do a manual product testing e.g., how to load sample data to be used for testing}
+### <span style="color:grey;">Shutting Down</span>
+1. If you are in a game, type `quit` to exit the game.
+2. Once you are in the main menu, signified by the prompt: `Now what would you like to do?`, type `quit` again to exit the program.
