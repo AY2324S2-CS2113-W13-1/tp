@@ -22,6 +22,7 @@ within her Parser class file.
 
 **Enhancements to existing features:**
 * Provided an `easy` and `hard` mode for `TTT`.
+* Gave personality to the computer, making the game experience much more enjoyable.
 * Made an algorithm so foolproof that it is impossible to beat the `hard`, the best case scenario ending in a draw.
 
 **Contributions to Developer Guide:**
@@ -30,7 +31,9 @@ within her Parser class file.
 
 **Contributions to User Guide**
 * Added input instructions for `TTT`.
+* Added expected behaviour of multiple `TTT` functions.
 
 **Contributions beyond the project team:**
-* Reported a decent number of bugs during the demo PE!
+* Reviewed PRs of other teams! (CS2113-F15-1)
+* Reported a decent number of bugs during the demo PE! (CS2113-W14-4)
   * ![img.png](img.png)
