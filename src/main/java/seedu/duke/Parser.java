@@ -17,6 +17,13 @@ import java.util.regex.Pattern;
 public class Parser {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
+    /**
+     * Reads the user input, given as parameter input. Returns a boolean true
+     * if the input is exactly 'quit' and returns boolean false otherwise.
+     *
+     * @param  input String of user input
+     * @return      true if quit, false otherwise
+     */
     public static boolean ifQuit(String input) {
         if (input != null && input.equals("quit")) {
             return true;
@@ -31,6 +38,13 @@ public class Parser {
         return false;
     }
 
+    /**
+     * Reads the user input, given as parameter input. Returns a boolean true
+     * if the input is exactly 'help' and returns boolean false otherwise.
+     *
+     * @param  input String of user input
+     * @return      true if help, false otherwise
+     */
     public static boolean ifHelp(String input) {
         if (input != null && input.equals("help")) {
             return true;
@@ -60,10 +74,13 @@ public class Parser {
     }
 
     /**
-     * Reads input from user specifiying what game they wish to play.
-     * Calls internal function to start the indicated game, if valid.
-     * rn it returns nothing but maybe it can return a string of the game name ?
-     * whatever makes it flow easier
+     * Reads the user input, given as parameter input.
+     * if the input is not one of the specificied allowed inputs (a game name, a help keyword,
+     * a tutorial keyword, or a quit keyword), readGame throws an exception to be handled by
+     * the calling class.
+     *
+     * @param  input String of user input
+     * @throws InvalidGameException if the user input is an invalid command
      */
     public static void readGame(String input) throws InvalidGameException {
         if (!input.equals("TTT") && !input.equals("hangman") && !ifHelp(input) &&
@@ -73,10 +90,12 @@ public class Parser {
     }
 
     /**
-     * Reads input from user specifiying what box they wish to mark in Tic Tac Toe
-     * Calls internal function to perform the indicated move, if valid
-     * rn it returns nothing but maybe it can return the int repping the box num ?
-     * whatever makes it flow easier
+     * Reads the user input, given as parameter input.
+     * if the input is not one of the specificied allowed inputs (an integer from 1-9, inclusive),
+     * readTTMove throws an exception to be handled by the calling class.
+     *
+     * @param  input String of user input
+     * @throws InvalidTTMoveException if the user input is an invalid command
      */
     public static void readTTMove(String input) throws InvalidTTMoveException {
         if (input == null) {
@@ -131,6 +150,14 @@ public class Parser {
         return !pattern.matcher(input).find();
     }
 
+    /**
+     * Returns true if the given user input has already been guessed by the user, thus
+     * in allGuessedLetters. Returns false otherwise.
+     *
+     * @param  allGuessedLetters String ArrayList of letters guessed by user
+     * @param  input String of user input
+     * @returns true if the input is a repeat guess, false otherwise
+     */
     public static boolean repeatGuess(ArrayList<String> allGuessedLetters, String input) {
         return allGuessedLetters.contains(input);
     }
@@ -147,12 +174,23 @@ public class Parser {
         return !currentGuess.contains("_");
     }
 
+    /**
+     * Returns true if the category entered by user is one of the valid categories of hangman.
+     * Returns false otherwise.
+     *
+     * @param  category String of user input
+     * @returns true if the user category is valid, false otherwise
+     */
     public static boolean validHMCategory(String category) {
         String [] cats = {"animals", "countries", "sports", "fruits"};
         return Arrays.stream(cats).anyMatch(category::equals);
     }
 
     /**
+     * Reads and returns one line of user input.
+     *
+     * @returns String of one line of user input
+     * @catches IOException if user input is not read correctly.
      */
     public static String readLine() {
         try {
