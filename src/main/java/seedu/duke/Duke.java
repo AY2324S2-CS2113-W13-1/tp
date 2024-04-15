@@ -97,6 +97,7 @@ public class Duke {
                         } catch (InvalidTTMoveException e) {
                             throw new RuntimeException(e);
                         }
+                    //@@author nigelheng
                     } else if (input.equals("hangman")) {
                         System.out.println("What category would you like to choose? These are the options:");
                         System.out.println("animals, countries, fruits & sports");
